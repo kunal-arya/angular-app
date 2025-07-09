@@ -1,0 +1,7 @@
+<p>Counter: {{counter()}} milliseconds</p>
+<div class="buttons">
+    <button (click)="start()" [disabled]="startButtonDisabled()">Start</button>
+    <button (click)="stop()" [disabled]="stopButtonDisabled()">Stop</button>
+    <button (click)="reset()">Reset</button>
+</div>
+
