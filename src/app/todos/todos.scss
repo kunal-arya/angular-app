@@ -1,0 +1,9 @@
+.todos {
+    list-style: none;
+    
+    &__item {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+}
